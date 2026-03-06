@@ -1,4 +1,4 @@
-# 🎵 Terminal Sound Alerts - START HERE
+# 🎵 TerminalTone - START HERE
 
 ## 🎯 What is This?
 
@@ -66,12 +66,12 @@ vsce package       # Create .vsix file
 ## 📊 View Logs
 
 1. Open Output panel: `Ctrl+Shift+U`
-2. Select "Terminal Sound Alerts" from dropdown
+2. Select "TerminalTone" from dropdown
 3. See all events and errors
 
 ## ⚙️ Configure
 
-`File → Preferences → Settings` → Search "Terminal Sound Alerts"
+`File → Preferences → Settings` → Search "TerminalTone"
 
 Or add to `settings.json`:
 ```json

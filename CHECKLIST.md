@@ -1,4 +1,4 @@
-# ✅ Terminal Sound Alerts - Installation Checklist
+# ✅ TerminalTone - Installation Checklist
 
 Use this checklist to ensure everything is set up correctly.
 
@@ -80,10 +80,10 @@ Use this checklist to ensure everything is set up correctly.
 
 ### Step 5: Verify Activation
 - [ ] Open Output panel (`Ctrl+Shift+U`)
-- [ ] Select "Terminal Sound Alerts" from dropdown
+- [ ] Select "TerminalTone" from dropdown
 - [ ] See activation message:
   ```
-  Terminal Sound Alerts extension activated
+  TerminalTone extension activated
   Terminal watcher activated
   All components initialized successfully
   ```
@@ -108,7 +108,7 @@ Use this checklist to ensure everything is set up correctly.
 
 ### Step 9: Verify Settings
 - [ ] Open Settings (`Ctrl+,`)
-- [ ] Search: "Terminal Sound Alerts"
+- [ ] Search: "TerminalTone"
 - [ ] See all 5 settings:
   - [ ] Enable Sound
   - [ ] Volume
@@ -272,7 +272,7 @@ You're done when:
 ## 📞 Getting Help
 
 If stuck:
-1. Check Output panel: "Terminal Sound Alerts"
+1. Check Output panel: "TerminalTone"
 2. Review error messages
 3. Consult documentation files
 4. Open GitHub issue with:
@@ -294,4 +294,4 @@ If stuck:
 
 **Congratulations! 🎊**
 
-If all checkboxes are checked, your Terminal Sound Alerts extension is fully installed and working!
+If all checkboxes are checked, your TerminalTone extension is fully installed and working!

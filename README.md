@@ -1,4 +1,4 @@
-# Terminal Sound Alerts
+# TerminalTone
 
 A Visual Studio Code extension that plays different sounds based on terminal command results - success, failure, or warning.
 
@@ -48,7 +48,7 @@ The extension detects warnings by scanning terminal output for these keywords:
 
 ## Configuration
 
-Access settings via `File > Preferences > Settings` and search for "Terminal Sound Alerts"
+Access settings via `File > Preferences > Settings` and search for "TerminalTone"
 
 ### Available Settings
 
@@ -91,7 +91,7 @@ To use your own sound files:
 View extension logs in the Output panel:
 
 1. Open Output panel (`Ctrl+Shift+U` or `Cmd+Shift+U`)
-2. Select "Terminal Sound Alerts" from the dropdown
+2. Select "TerminalTone" from the dropdown
 
 Logs include:
 - Command execution events

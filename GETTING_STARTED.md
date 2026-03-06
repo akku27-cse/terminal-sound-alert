@@ -1,4 +1,4 @@
-# Getting Started with Terminal Sound Alerts
+# Getting Started with TerminalTone
 
 ## 📋 Prerequisites
 
@@ -98,11 +98,11 @@ npm install
 
 1. In the Extension Development Host window
 2. Open Output panel: `View → Output` (or `Ctrl+Shift+U`)
-3. Select "Terminal Sound Alerts" from the dropdown
+3. Select "TerminalTone" from the dropdown
 4. You'll see logs like:
 
 ```
-Terminal Sound Alerts extension activated
+TerminalTone extension activated
 Terminal watcher activated
 Terminal exited: bash, Exit code: 0
 Processing result - Exit code: 0
@@ -115,7 +115,7 @@ Playing success sound: d:\terminal-sound-alert\sounds\success.mp3
 ### Option 1: Via Settings UI
 
 1. `File → Preferences → Settings` (or `Ctrl+,`)
-2. Search for "Terminal Sound Alerts"
+2. Search for "TerminalTone"
 3. Adjust settings:
    - Enable/disable sounds
    - Change volume (0.0 to 1.0)
@@ -270,7 +270,7 @@ npm run compile
 
 ## 🆘 Getting Help
 
-- Check the Output panel: "Terminal Sound Alerts"
+- Check the Output panel: "TerminalTone"
 - Review logs for error messages
 - Open an issue on GitHub
 - Read the documentation files

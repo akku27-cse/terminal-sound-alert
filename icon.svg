@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" rx="16" fill="#2D2D30"/>
+  
+  <!-- Terminal window -->
+  <rect x="16" y="24" width="96" height="64" rx="4" fill="#1E1E1E" stroke="#007ACC" stroke-width="2"/>
+  
+  <!-- Terminal prompt -->
+  <text x="24" y="48" font-family="monospace" font-size="16" fill="#4EC9B0">$</text>
+  <rect x="36" y="38" width="32" height="3" fill="#4EC9B0"/>
+  
+  <!-- Sound waves -->
+  <path d="M 88 44 Q 96 44 96 52 Q 96 60 88 60" stroke="#FFD700" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 92 40 Q 104 40 104 52 Q 104 64 92 64" stroke="#FFD700" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 96 36 Q 112 36 112 52 Q 112 68 96 68" stroke="#FFD700" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Speaker icon -->
+  <path d="M 72 44 L 72 60 L 80 60 L 88 68 L 88 36 L 80 44 Z" fill="#FFD700"/>
+  
+  <!-- Status indicators -->
+  <circle cx="28" cy="100" r="6" fill="#4EC9B0"/>
+  <circle cx="48" cy="100" r="6" fill="#F48771"/>
+  <circle cx="68" cy="100" r="6" fill="#FFD700"/>
+</svg>

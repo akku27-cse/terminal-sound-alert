@@ -50,7 +50,7 @@ npm run watch
    # Test warning
    echo "warning: this is a test"
    ```
-4. Check the "Terminal Sound Alerts" output channel for logs
+4. Check the "TerminalTone" output channel for logs
 
 ### Debugging
 
@@ -158,7 +158,7 @@ npm run compile
 
 ### Sound Not Playing
 
-1. Check Output panel: "Terminal Sound Alerts"
+1. Check Output panel: "TerminalTone"
 2. Verify sound files exist and are valid
 3. Test system audio with other applications
 4. Check volume settings in extension configuration

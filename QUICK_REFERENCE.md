@@ -1,4 +1,4 @@
-# Terminal Sound Alerts - Quick Reference
+# TerminalTone - Quick Reference
 
 ## 🚀 Quick Start
 
@@ -102,12 +102,12 @@ vsce package       # Create .vsix package
 
 1. Set breakpoints in `.ts` files
 2. Press `F5` to start Extension Development Host
-3. Check "Terminal Sound Alerts" in Output panel
+3. Check "TerminalTone" in Output panel
 4. Use Debug Console to inspect variables
 
 ## 📊 Logging
 
-All events logged to Output Channel: "Terminal Sound Alerts"
+All events logged to Output Channel: "TerminalTone"
 
 Logs include:
 - Extension activation

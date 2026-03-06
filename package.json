@@ -1,13 +1,30 @@
 {
-  "name": "terminal-sound-alert",
-  "displayName": "Terminal Sound Alerts",
+  "name": "TerminalTone",
+  "displayName": "TerminalTone",
   "description": "Play different sounds based on terminal command results (success, failure, or warning)",
   "version": "1.0.0",
   "publisher": "santujana",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/santujana/terminal-sound-alert"
+    "url": "https://github.com/akku27-cse/terminal-sound-alert.git"
   },
+  "bugs": {
+    "url": "https://github.com/akku27-cse/terminal-sound-alert/issues"
+  },
+  "homepage": "https://github.com/akku27-cse/terminal-sound-alert#readme",
+  "license": "MIT",
+  "keywords": [
+    "terminal",
+    "sound",
+    "alert",
+    "notification",
+    "audio",
+    "command",
+    "success",
+    "failure",
+    "warning"
+  ],
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -37,7 +54,7 @@
       }
     ],
     "configuration": {
-      "title": "Terminal Sound Alerts",
+      "title": "TerminalTone",
       "properties": {
         "commandAudioNotifier.enableSound": {
           "type": "boolean",

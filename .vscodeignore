@@ -9,3 +9,15 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 node_modules/**
+generate-icon.py
+generate-icon.js
+icon.svg
+LOGO_INSTRUCTIONS.md
+CHECKLIST.md
+CONTRIBUTING.md
+GETTING_STARTED.md
+INDEX.md
+PROJECT_SUMMARY.md
+QUICK_REFERENCE.md
+SETUP.md
+START_HERE.md

@@ -5,8 +5,8 @@ import { TerminalWatcher } from './terminalWatcher';
 let outputChannel: vscode.OutputChannel;
 
 export function activate(context: vscode.ExtensionContext) {
-    outputChannel = vscode.window.createOutputChannel('Terminal Sound Alerts');
-    outputChannel.appendLine('Terminal Sound Alerts extension activated');
+    outputChannel = vscode.window.createOutputChannel('TerminalTone');
+    outputChannel.appendLine('TerminalTone extension activated');
     outputChannel.show();
 
     const soundPlayer = new SoundPlayer(outputChannel, context.extensionPath);
@@ -37,12 +37,12 @@ export function activate(context: vscode.ExtensionContext) {
     terminalWatcher.activate(context);
 
     outputChannel.appendLine('All components initialized successfully');
-    vscode.window.showInformationMessage('Terminal Sound Alerts activated! Check Output panel for logs.');
+    vscode.window.showInformationMessage('TerminalTone activated! Check Output panel for logs.');
 }
 
 export function deactivate() {
     if (outputChannel) {
-        outputChannel.appendLine('Terminal Sound Alerts extension deactivated');
+        outputChannel.appendLine('TerminalTone extension deactivated');
         outputChannel.dispose();
     }
 }

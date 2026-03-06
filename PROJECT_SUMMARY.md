@@ -1,8 +1,8 @@
-# Terminal Sound Alerts - Project Summary
+# TerminalTone - Project Summary
 
 ## 🎯 Project Overview
 
-**Name:** Terminal Sound Alerts  
+**Name:** TerminalTone  
 **Type:** Visual Studio Code Extension  
 **Language:** TypeScript  
 **Purpose:** Play different sounds based on terminal command results (success, failure, warning)
@@ -171,7 +171,7 @@ vsce publish
 
 ## 📊 Logging System
 
-**Output Channel:** "Terminal Sound Alerts"
+**Output Channel:** "TerminalTone"
 
 **Logged Events:**
 - Extension activation
@@ -183,7 +183,7 @@ vsce publish
 
 **Example Log:**
 ```
-Terminal Sound Alerts extension activated
+TerminalTone extension activated
 Terminal watcher activated
 Terminal exited: bash, Exit code: 0
 Processing result - Exit code: 0
