@@ -1,0 +1,90 @@
+{
+  "name": "terminal-sound-alert",
+  "displayName": "Terminal Sound Alerts",
+  "description": "Play different sounds based on terminal command results (success, failure, or warning)",
+  "version": "1.0.0",
+  "publisher": "santujana",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santujana/terminal-sound-alert"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "terminalSoundAlert.testSuccess",
+        "title": "Test Success Sound",
+        "category": "Terminal Sound Alert"
+      },
+      {
+        "command": "terminalSoundAlert.testFailure",
+        "title": "Test Failure Sound",
+        "category": "Terminal Sound Alert"
+      },
+      {
+        "command": "terminalSoundAlert.testWarning",
+        "title": "Test Warning Sound",
+        "category": "Terminal Sound Alert"
+      }
+    ],
+    "configuration": {
+      "title": "Terminal Sound Alerts",
+      "properties": {
+        "commandAudioNotifier.enableSound": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable sound notifications"
+        },
+        "commandAudioNotifier.successSound": {
+          "type": "string",
+          "default": "sounds/success.mp3",
+          "description": "Path to success sound file (relative to extension root)"
+        },
+        "commandAudioNotifier.failureSound": {
+          "type": "string",
+          "default": "sounds/fail.mp3",
+          "description": "Path to failure sound file (relative to extension root)"
+        },
+        "commandAudioNotifier.warningSound": {
+          "type": "string",
+          "default": "sounds/warning.mp3",
+          "description": "Path to warning sound file (relative to extension root)"
+        },
+        "commandAudioNotifier.volume": {
+          "type": "number",
+          "default": 1.0,
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Volume level for sound playback (0.0 to 1.0)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.x",
+    "@types/vscode": "^1.75.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "node-wav-player": "^0.2.0"
+  }
+}
